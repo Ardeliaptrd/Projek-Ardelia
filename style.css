@@ -1,0 +1,133 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #ffdcdc;
+}
+
+/* Header */
+header {
+    background-color: #dd7979;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+}
+
+img {
+    width: 200px;   /* Ubah ukuran lebar gambar */
+    height: 200;   /* Menjaga aspek rasio */
+    border-radius: 50%;  /* Membuat sudut gambar melengkung hingga menjadi lingkaran */
+    margin-bottom:30px;
+    object-fit: cover;
+    border: 2px solid rgb(238, 239, 244); /* Tambahkan border pada gambar */
+    justify-content: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+
+
+/* Section dasar */
+section {
+    padding: 40px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Section about me */
+.about_me-section {
+    background-color: #b52828;
+    text-align: center;
+}
+
+.about_me-section p {
+    font-size: 1.2em;
+}
+
+/* Section Tentang Saya */
+.Biodata_diri-section {
+    background-color: #ff9e9e;
+    box-shadow: #ff0000;
+    text-align: left;
+}
+
+.Biodata_diri-section p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #dd7979;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1 1 250px; /* Flex item with minimum width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+       
+}
+
+
+.persegi {
+    width: 400px;
+    height: 180px;
+    border-radius: 0%;
+    object-fit: cover; /* Gambar tetap proporsional tanpa distorsi */
+}
+
+/* Section pendidikan */
+.Pendidikan-section {
+    background-color: #b52828;
+    text-align: left;
+}
+
+.Pendidikan-section a {
+    color: #2a2b2c;
+    text-decoration: none;
+}
+
+.Pendidikan-section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
